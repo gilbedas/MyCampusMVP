@@ -295,7 +295,7 @@ body
 #InternshipLeftSearch_Map_Img
 {	
   position: static;
-  padding-top: 6%;
+  padding-top: 3%;
   width: 100%;
   height: 25%;
   background: url('/home/gildas/Documents/prog/web/MyCampusMVP/Map.gif');

@@ -6,8 +6,8 @@
   </head>
 
   <body>
-  <button type="button" onclick="<code>window.parent.document.title = </code><code>'Hello World!'</code><code>;</code>">Changer le titre de la fenêtre </button>
     <?php include('MainHeader.php'); ?>
     <?php include('MainCenter.php'); ?>
   </body>
 </html>
+cla

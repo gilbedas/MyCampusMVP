@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Campus</title>
+	<link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+ 	 <div id="InternshipLeftSearch">
+  		<div id="InternshipLeftSearch_SearchBar" class="ColorHeader">
+  		</div>
+  		<div id="InternshipLeftSearch_Filters" class="ColorWhite">
+  			<div id="InternshipLeftSearch_Filters_Header" class="UnderTitle">By function</div>
+  			<hr class="UnderTitle_Line"/>
+  			<div class="InternshipLeftSearch_Filters_Filters">Finance</div>
+  			<div class="InternshipLeftSearch_Filters_Filters">Conseil</div>
+  			<div class="InternshipLeftSearch_Filters_Filters">Corporate</div>
+  			<div class="InternshipLeftSearch_Filters_Filters">Sart-up</div>
+  			<div class="InternshipLeftSearch_Filters_Filters">Humanitaire</div>
+  		</div>
+  		<div id="InternshipLeftSearch_Map" class="ColorWhite">
+  		  	<div id="InternshipLeftSearch_Map_Header" class="UnderTitle">By geography</div>
+  			<hr class="UnderTitle_Line"/>
+  			<div id="InternshipLeftSearch_Map_Img"></div>
+  		</div>
+ 	 </div>
+  </body>
+</html>
