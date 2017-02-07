@@ -6,8 +6,5 @@
   </head>
 
   <body>
-    <?php include('MainHeader.php'); ?>
-    <?php include('MainCenter.php'); ?>
   </body>
 </html>
-cla

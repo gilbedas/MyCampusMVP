@@ -171,7 +171,7 @@ body
 {
   position: fixed;
   width: 100%;
-  height: 5%;
+  height: 10%;
   left: 0;
   top: 0;
   background : #940051 ;
@@ -218,6 +218,191 @@ body
 
 
 
+
+
+
+#Post_Test
+{
+	width: 48%;
+	height: auto;
+	padding: 10px;
+	
+	background-color: #fff;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+#Post_Test_Image
+{
+	position: static;
+	width: 20%;
+	height: 100%;
+}
+
+#Post_Test_Content
+{
+	position: static;
+	width: 80%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+#Post_Content_Up
+{
+	width: 100%;
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+}
+
+.Post_Test_Image_resize
+{
+	margin-left: 10%;
+	margin-top: 10%;
+	width: 100px;
+	height: 100px;
+}
+
+.Post_Test_Image_resize_Profil
+{
+	position: static;
+	margin-left: 0%;
+	margin-top: 0%;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+
+#Post_Content_Up_ProfilName
+{
+	position: static;
+	margin-left: 2%;
+	margin-top: 0;
+	height: 15px;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 500;
+	color: #940051;
+}
+
+
+
+
+#Post_Content_Down
+{	
+	display: none;
+	width: 100%;
+	height: 0;
+}
+
+
+
+
+.post_text
+{
+	background-color: #fff;
+	display: none;
+}
+
+#Post_Test_ArrowDown
+{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent #000000 transparent transparent;
+}
+
+#Post_Test_ArrowUp
+{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 10px;
+	border-color: transparent transparent transparent #000000;
+}
+
+#Post_Test a.Volet_Open
+{
+	position: absolute;
+	right: 1%;
+	bottom: 1%;
+
+	-ms-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+
+	border-radius: 0 0 8px 8px;
+}
+
+#Post_Test a.Volet_Close
+{
+	position: absolute;
+	right: 1%;
+	bottom: 1%;
+
+	-ms-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+
+	border-radius: 0 0 8px 8px;
+	display: none;
+}
+
+#Post_Test
+{
+	-webkit-transition: all .0s ease-in;
+	transition: all .0s ease-in;
+}
+
+#Post_Test:target
+{
+	height: auto;
+}
+
+#Post_Test_close:target #Post_Test
+{
+	height: 20%;
+}
+
+#Post_Test:target a.Volet_Open 
+{
+	display: none;
+} 
+
+#Post_Test:target a.Volet_Close
+{
+	display: block;
+}
+
+#Post_Test:target p.post_text
+{
+	display: block;
+}
+
+#Post_Test:target #Post_Content_Down
+{
+	display: block;
+	height: auto;
+}
+
+#Post_Test:target #Post_Content_Up
+{
+	height: 120px;
+}
+
+
+
+
+
+
 #InternshipLeftSearch
 {
   margin-left: 5%;
@@ -228,18 +413,51 @@ body
 }
 
 
-
-
 #InternshipLeftSearch_SearchBar
 {
   position: static;
+  display: inline-block;
   width: 20%;
   height: 6%;
 }
 
+#InternshipLeftSearch_SearchBar_SearchBar
+{
+  position: fixed;
+  width: 14.8%;
+  height: 4.4%;
+  margin-left: 0.4%;
+  margin-top: 0.4%;
+  margin-right: 0;
+  box-shadow: none;
+  border-bottom-color: #000;
+  border-width: 0px;
+  border-radius: 7px 0 0 7px;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-weight: 400;
+  padding: 0;
+  padding-left: 7px;
+  padding-top: 4px;
+}
 
+#InternshipLeftSearch_SearchBar_Button
+{
+  position: fixed;
+  width: 3%;
+  height: 4.4%;
+  margin-left: 15.2%;
+  margin-top: 0.4%;
+  box-shadow: none;
+  border-bottom-color: #000;
+  border-width: 0px;
+  border-radius: 0 7px 7px 0;
+  padding: 0;
+}
 
-
+#InternshipLeftSearch_SearchBar_Button:hover
+{
+	background: #ff6633; 
+}
 
 
 #InternshipLeftSearch_Filters
@@ -279,9 +497,65 @@ body
 	margin-top: 2%;
 }
 
+.InternshipLeftSearch_Filters_Filters_Finance_content
+{
+	display: none;
+	position: static;
+	background-color: #fff;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-size: 60%;
+	text-align: left;
+	color: #940051;
+	font-weight: 400;
+	margin-left: 20%;
+	margin-top: 2%;
+}
 
 
+#InternshipLeftSearch_Filters_Filters_Finance:hover .InternshipLeftSearch_Filters_Filters_Finance_content
+{
+	display: block;
+}
 
+.InternshipLeftSearch_Filters_Filters_Corporate_Content
+{
+	display: none;
+	position: static;
+	background-color: #fff;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-size: 60%;
+	text-align: left;
+	color: #940051;
+	font-weight: 400;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+
+
+#InternshipLeftSearch_Filters_Filters_Corporate:hover .InternshipLeftSearch_Filters_Filters_Corporate_Content
+{
+	display: block;
+}
+
+.InternshipLeftSearch_Filters_Filters_Sart-up_Content
+{
+	display: none;
+	position: static;
+	background-color: #fff;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-size: 60%;
+	text-align: left;
+	color: #940051;
+	font-weight: 400;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+
+
+#InternshipLeftSearch_Filters_Filters_Sart-up:hover .InternshipLeftSearch_Filters_Filters_Sart-up_Content
+{
+	display: block;
+}
 
 
 #InternshipLeftSearch_Map
