@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Campus</title>
+	<link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body> 
+  		<div id="StudentProfilLeft">
+			<div id="StudentProfilInstitution">
+				<p class="StudentProfilInstitution_Header">Institutions</p>
+				<hr class="StudentProfilInstitution_Line">
+				<p class="StudentProfilInstitution_Title">High school</p>
+				<p class="StudentProfilInstitution_Text">High school</p>
+				<p class="StudentProfilInstitution_Title">High school</p>
+				<p class="StudentProfilInstitution_Text">High school</p>
+				<p class="StudentProfilInstitution_Text">High school</p>
+				<p class="StudentProfilInstitution_Text">High school</p>
+				<p class="StudentProfilInstitution_Title">High school</p>
+				<p class="StudentProfilInstitution_Text">High school</p>
+				<p class="StudentProfilInstitution_Title">High school</p>
+				<p class="StudentProfilInstitution_Text">High school</p>
+			</div>
+			<div id="BackToSearchButton">
+			 <p class="BackToSearchButton_Text"><-                      Back to student search</p>
+			</div>
+		</div>
+  </body>
+</html>

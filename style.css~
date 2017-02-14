@@ -165,6 +165,7 @@
 body
 {
   background: #f1e7ec;
+  overflow-x: scroll;
 }
 
 #MainHeader
@@ -221,11 +222,220 @@ body
 
 
 
+#StudentProfilHeader
+{
+	position: fixed;
+  	margin-left: 5%;
+	margin-top: 5%;
+	width: 90%;
+	height: 200px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: raw;
+	flex-wrap: nowrap;
+}
+
+#StudentProfilHeader_Picture
+{
+	margin-left: 10px;
+	width: 250px;
+	height: 180px;
+	margin-top: 10px;
+	margin-right: 10px;
+	overflow: hidden;
+	background-position: 50% 50%;
+}
+
+.StudentProfilHeader_Picture_Resize
+{
+	display: block;
+	max-height: 180px;
+	width: auto;
+}
+
+#StudentProfilHeader_Info
+{
+	width: 40%;
+	height: 180px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.StudentProfilHeader_Info_Name
+{
+	position: static;
+	margin: 0;
+	margin-top: 2%;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 500;
+	font-size: 32px;
+	height: 32px;
+	color: #940051;
+}
+
+.StudentProfilHeader_Info_Doing
+{
+	position: static;
+	margin: 0;
+	margin-top: 2%;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 200;
+	font-size: 25px;
+	height: 30px;
+	color: #666;
+}
+
+.StudentProfilHeader_Info_Line
+{
+	position: static;
+	margin: 0;
+	margin-top: 2%;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 200;
+	font-size: 20px;
+	color: #666;
+}
+
+.StudentProfilHeader_Info_Info
+{
+	position: static;
+	margin: 0;
+	margin-top: 2%;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 200;
+	font-size: 15px;
+	color: #000;
+}
+
+
+
+
+
+#StudentProfilLeft
+{
+	position: fixed;
+  	margin-left: 5%;
+	margin-top: calc(5% + 200px);
+	width: 20%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+#StudentProfilInstitution
+{
+	position: static;
+	margin-top: 0;
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+.StudentProfilInstitution_Header
+{
+	position: static;
+	margin: 0;
+	margin-top: 7px;
+	margin-left: 4%;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 20px;
+	height: 20px;
+	color: #940051;
+}
+
+.StudentProfilInstitution_Line
+{
+	position: static;
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-top: 2%;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 200;
+	font-size: 20px;
+	color: #940051;
+}
+
+.StudentProfilInstitution_Title
+{
+	position: static;
+	margin: 0;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-bottom: 5px;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 13px;
+	height: 13px;
+	color: #940051;
+	text-decoration: underline;
+}
+
+.StudentProfilInstitution_Text
+{
+	position: static;
+	margin: 0;
+	margin-left: 10%;
+	margin-bottom: 5px;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 600;
+	font-size: 15px;
+	height: 20px;
+	color: #000;
+}
+
+#BackToSearchButton
+{
+	position: static;
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+	display: flex;
+	flex-direction: column;
+	background-color: #940051;
+}
+
+.BackToSearchButton_Text
+{
+	position: static;
+	margin: 0;
+	margin-top: 25%;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 600;
+	font-size: 20px;
+	height: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #Post_Test
 {
 	width: 48%;
 	height: auto;
-	padding: 10px;
+	padding: 0px;
 	
 	background-color: #fff;
 	position: relative;
@@ -244,7 +454,7 @@ body
 #Post_Test_Content
 {
 	position: static;
-	width: 80%;
+	width: 70%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -259,37 +469,121 @@ body
 	height: 120px;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 0;
+	margin-left: 0;
+	align-content: flex-start;
 }
 
 .Post_Test_Image_resize
 {
 	margin-left: 10%;
 	margin-top: 10%;
-	width: 100px;
-	height: 100px;
+	width: 80%;
+	height: auto;
 }
 
 .Post_Test_Image_resize_Profil
 {
 	position: static;
 	margin-left: 0%;
-	margin-top: 0%;
-	width: 25px;
-	height: 25px;
+	margin-top: 10%;
+	width: 7%;
+	height: auto;
 	border-radius: 50%;
+}
+
+#Post_Content_Up_NameDate
+{
+	margin-top: 10%;
+	height: 30px;
 }
 
 #Post_Content_Up_ProfilName
 {
 	position: static;
 	margin-left: 2%;
+	margin-top: 0;
 	height: 15px;
 	font-family: "ITC Avant Garde Gothic Std";
 	font-weight: 500;
+	font-size: 13px;
 	color: #940051;
+	margin-bottom: 0;
 }
 
+#Post_Content_Up_Date
+{
+	position: static;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	color: #666666;
+	font-size: 9px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
 
+#Post_Content_Pined
+{
+	position: absolute;
+	background-color: #940051;
+	width: 2.4em;
+	height: 2.4em;
+	border-radius: 7px 0 0 7px;
+	margin-top: 0;
+	margin-bottom: 0;
+	top: 0;
+	right: 0;
+}
+
+#Post_Content_Up_CompanyName
+{
+	position: static;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 300px;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 500;
+	font-size: 24px;
+	color: #940051;
+	height: 24px;
+}
+
+#Post_Content_Up_InternshipPlace
+{
+	margin-top: 0;
+	margin-bottom: 10px;	
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 15px;
+	color: #000;
+	margin-left: 1%;
+	width: auto;
+}
+
+.Post_Content_Up_Space
+{
+	width: 100%;
+}
+
+.Post_Content_Up_Tag
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 10px;
+	border-radius: 2px;
+	width: auto;
+	height: auto;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+	color: #fff;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
 
 
 #Post_Content_Down
@@ -297,8 +591,143 @@ body
 	display: none;
 	width: 100%;
 	height: 0;
+	background-color: #f1e7ec;
+	margin-bottom: 5px;
 }
 
+.Post_Content_Down_Text
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 200;
+	font-size: 12px;
+	line-height: 18px;
+	color: #000;
+}
+
+.Post_UnderTitle_Line
+{
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-top: 8px;
+	margin-bottom: 0;
+	color: #940051;
+}
+
+#Post_Content_Down_Info
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+}
+
+.Post_Content_Down_Info_Remuneration
+{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	height: auto;
+}
+
+.Post_UnderTitle_Info
+{
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 500;
+	color: #940051;
+	margin-left: 8%;
+	padding-top: 2%;
+	height: 3%;
+}
+
+.Post_UnderTitle_Line_Info
+{
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	color: #940051;	
+}
+
+.Post_Content_Down_Text_Info
+{
+	margin-left: 10%;
+	margin-right: 5%;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 200;
+	font-size: 12px;
+	line-height: 18px;
+	height: auto;
+	color: #000;
+	word-wrap: break-word;
+}
+
+.Post_Content_Down_Info_Location
+{
+	display: flex;
+	flex-direction: column;	
+	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+}
+
+.Post_UnderTitle_Line_Location
+{
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-top: 18px;
+	margin-bottom: 3px;
+	color: #940051;
+}
+
+#Post_Content_Down_Info_FormerStudent
+{
+	width: 100%;
+}
+
+#Post_Content_Down_Info_FormerStudent_List
+{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+}
+
+#Post_Content_Down_Info_FormerStudent_List_User
+{
+	display: flex;
+	flex-direction: column;	
+	width: 20%;
+	height: auto;
+	margin-left: 5%
+}
+
+#Post_Content_Down_Info_FormerStudent_List_User_Name
+{
+	position: static;
+	margin-left: 2%;
+	margin-top: 5px;
+	height: auto;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 500;
+	font-size: 10px;
+	color: #940051;
+	margin-bottom: 0;
+}
+
+.Post_Content_Down_Info_FormerStudent_List_User_Photo
+{
+	position: static;
+	margin-left: 25%;
+	margin-top: 5px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
 
 
 
@@ -388,7 +817,8 @@ body
 
 #Post_Test:target #Post_Content_Down
 {
-	display: block;
+	display: flex;
+	flex-direction: column;
 	height: auto;
 }
 
@@ -396,6 +826,12 @@ body
 {
 	height: 120px;
 }
+
+
+
+
+
+
 
 
 
@@ -581,6 +1017,340 @@ body
 
 
 
+#InternshipRightPinned
+{
+	position: fixed;
+	margin-left: 76%;
+	margin-top: 7%;
+	width: 20%;
+	height: auto;
+	background: #ffffff;
+	display: flex;
+	flex-direction : column;
+}
+
+#InternshipRightPinned_Header
+{
+	position: static;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-size: 22px;
+	text-align: left;
+	color: #940051;
+	font-weight: 400;
+	margin-left: 4%;
+	margin-top: 10px;
+}
+
+#InternshipRightPinned_Header_Line
+{
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #940051;
+}
+
+#InternshipRightPinned_PinnedItem
+{
+	background-color: #f1e7ec;
+	width: 90%;
+	height: 19%;
+	margin-top: 5px;
+	margin-left: 5%;
+	display: flex;
+	flex-direction: raw;
+	flex-wrap: nowrap;
+}
+
+#InternshipRightPinned_PinnedItem_Img
+{
+	width: 30%;
+	height: 100%;
+}
+
+.InternshipRightPinned_PinnedItem_Img_Resize
+{
+	margin-left:7px;
+	margin-top: 7px;
+	margin-bottom: 15%;
+	height: auto;
+	width: 80%;
+}
+
+#InternshipRightPinned_PinnedItem_Content
+{
+	display: flex;
+	flex-direction:raw;
+	flex-wrap: wrap;
+	width: 60%;
+	height: 100%;
+}
+
+.InternshipRightPinned_PinnedItem_Content_Title
+{
+	margin-top: 7px;
+	margin-bottom: 0;
+	margin-left: 0;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-size: 13px;
+	font-weight: 600;
+	color: #940051;
+	height: 18px;
+	overflow: hidden;
+}
+
+#InternshipRightPinned_PinnedItem_Content_Img
+{
+	width: 10%;
+	height: 10%;
+	margin: 0;
+	margin-right: 7px;
+	margin-top: 7px;
+	right: 0;
+	top: 0;
+}
+
+.InternshipRightPinned_PinnedItem_Content_Img
+{
+	margin: 0;
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+
+.InternshipRightPinned_PinnedItem_Content_Text
+{
+	margin: 0;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-size: 11px;
+	font-weight: 300;
+	color: #000;
+	height: 34px;
+	overflow: hidden;
+	padding-top: 2px;
+}
+
+.InternshipRightPinned_PinnedItem_Content_Tag
+{
+	margin-bottom: 5px;
+	margin-right: 1%;
+	border-radius: 2px;
+	width: auto;
+	height: auto;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: bold;
+	font-size: 9px;
+	text-align: center;
+	color: #fff;
+	padding-right: 3px;
+	padding-left: 3px;
+	padding-bottom: 0;
+	padding-top: 3px;
+}
+
+.InternshipRightPinned_PinnedItem_Link
+{
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 9px;
+	text-align: right;
+	color: #940051;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5%;
+}
+
+
+
+#PostEvent_Content
+{	
+	position: static;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+#PostEvent_Img
+{
+	background-size: cover;
+	background-position: 10% 75%;
+}
+
+#Post_ImgBackground
+{
+	background: -webkit-linear-gradient(transparent, #000) bottom repeat;
+  	background: linear-gradient(transparent, #000) bottom repeat;
+}
+
+#PostEvent_Content_Up_Date
+{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.PostEvent_Content_Up_Date_Day
+{
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	color: #fff;
+	height: 40px;
+	margin-top: 15%;
+	margin-bottom: 0;
+}
+
+.PostEvent_Content_Up_Date_Month
+{
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: bold;
+	font-size: 35px;
+	text-align: center;
+	color: #fff;
+	margin-top: 3px;
+	margin-bottom: 0;
+}
+
+#PostEvent_Content_Up_Info
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 50%;
+	height: 95%;
+	margin-bottom: 5px;
+}
+
+#PostEvent_Content_Up_Info_Title
+{
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: bold;
+	font-size: 35px;
+	text-align: left;
+	text-transform: uppercase;
+	height: 30px;
+	margin-top: 15%;
+	margin-bottom: 0;
+	margin-left: 2%;
+	color: #fff;
+}
+
+#PostEvent_Content_Up_Info_Text
+{
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 0;
+	margin-left: 4%;
+	color: #fff;
+}
+
+.PostEvent_Content_Up_Tag
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 10px;
+	border-radius: 2px;
+	width: auto;
+	height: auto;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: bold;
+	font-size: 11px;
+	text-align: center;
+	color: #fff;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	height: 12px;
+	padding-top: 2px;
+}
+
+#PostEvent_Content_Going
+{
+	position: absolute;
+	background-color: #940051;
+	width: auto;
+	height: auto;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 0;
+	top: 0;
+	right: 2.5em;
+	border-radius: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+#PostEvent_Content_PGoing
+{
+	position: absolute;
+	right: 5%;
+	top: 90px;
+	color: #fff;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 10px;
+}
+
+#PostEvent_Content_PInterested
+{
+	position: absolute;
+	right: 15%;
+	top: 90px;
+	color: #fff;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 10px;
+}
+
+#PostEvent_Content_Down
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: raw;
+	flex-wrap: nowrap;
+}
+
+#PostEvent_Content_Down_AssoPic
+{
+	width: 20%;
+	height: 100%;
+}
+
+.PostEvent_Content_Down_AssoPic_Img
+{
+	border-radius: 50%;
+	margin-left: 10%;
+	width: 80%;
+	height: auto;
+	margin-top: 10%;
+}
+
+#PostEvent_Content_Down_Center
+{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: #f1e7ec;
+	margin-bottom: 5%;
+}
+
+
+
+
 
 .ColorHeader
 {
@@ -596,3 +1366,8 @@ body
 {
 	background-color: #000;
 }
+
+
+
+
+ /*style="background-image: url('/home/gildas/Documents/prog/web/MyCampusMVP/space.gif');"*/
