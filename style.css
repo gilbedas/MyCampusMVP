@@ -165,7 +165,7 @@
 body
 {
   background: #f1e7ec;
-  overflow-x: scroll;
+  overflow: auto;
 }
 
 #MainHeader
@@ -345,6 +345,7 @@ body
 	font-size: 20px;
 	height: 20px;
 	color: #940051;
+	margin-bottom: 2px;
 }
 
 .StudentProfilInstitution_Line
@@ -415,14 +416,192 @@ body
 
 
 
+#StudentProfilPath
+{
+	position: fixed;
+ 	margin-left: 26%;
+  	width: 48%;
+  	height: auto;
+  	background-color: #fff;
+  	display: flex;
+  	flex-direction: column;
+}
+
+
+#StudentProfilPath_Path
+{
+	margin-left: 4%;
+	width: 92%;
+	height: 100%;
+	margin-bottom: 4%;
+}
+
+#StudentProfilPath_Path_School
+{
+	width: 99%;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 18px;
+	height: 18px;
+	background-color: #f1e7ec;
+	color: #940051;
+	margin: 0;
+	padding-left: 1%;
+}
+
+#StudentProfilPath_Path_School_Content
+{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	display: flex;
+	flex-direction: raw;
+	flex-wrap: nowrap;
+}
+
+#StudentProfilPath_Path_School_Content_Cursus
+{
+	width: 60%;
+	height: auto;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+}
+
+#Vertical_Line
+{
+	width: 1px;
+	margin: 0;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	height: 90%;
+}
+
+#StudentProfilPath_Path_School_Content_Association
+{
+	width: 30%;
+	height: auto;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+}
+
+#StudentProfilPath_Path_School_Content_Association_Photo
+{
+	display: flex;
+	flex-direction: raw;
+	flex-wrap: nowrap;
+	margin-top: 5%;
+}
+
+.StudentProfilPath_Path_School_Content_Association_Photo_Resize
+{
+	position: relative;
+	width: 35%;
+	height: auto;
+	border-radius: 50%;
+}
+
+#StudentProfilPath_Path_School_Content_Association_Info
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 5%;
+	margin-top: 15px;
+}
+
+.StudentProfilPath_Path_School_Content_Association_Info_Name
+{
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 14px;
+	height: 14px;
+	color: #666666;
+	margin: 0;
+}
+
+.StudentProfilPath_Path_School_Content_Association_Info_Place
+{
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 14px;
+	height: 14px;
+	color: #666666;
+	font-style: oblique;
+	margin: 0;
+}
 
 
 
 
 
 
+#StudentProfilRight
+{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	position: fixed;
+  	margin-left: 76%;
+  	margin-top: calc(5% + 200px);
+  	width: 20%;
+  	background-color: #fff;
+}
+
+#StudentProfilRight_Profil
+{
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: raw;
+	flex-wrap: nowrap;
+	margin-bottom: 5px;
+}
+
+.StudentProfilRight_Profil_Photo
+{
+	position: relative;
+	width: 18%;
+	height: auto;
+	border-radius: 50%;
+	margin: 0;
+	margin-left: 5%;
+	margin-bottom: 3px;
+}
+
+#StudentProfilRight_Profil_Info
+{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.StudentProfilRight_Profil_Name
+{
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 14px;
+	height: 14px;
+	color: #000;
+	margin: 0;
+	margin-top: 10px;
+	margin-left: 10%;
+}
 
 
+.StudentProfilRight_Profil_Cursus
+{
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 12px;
+	height: 12px;
+	color: #666666;
+	font-style: oblique;
+	margin: 0;
+	margin-left: 10%;
+}
 
 
 
@@ -436,7 +615,7 @@ body
 	width: 48%;
 	height: auto;
 	padding: 0px;
-	
+
 	background-color: #fff;
 	position: relative;
 	display: flex;
@@ -552,7 +731,7 @@ body
 #Post_Content_Up_InternshipPlace
 {
 	margin-top: 0;
-	margin-bottom: 10px;	
+	margin-bottom: 10px;
 	font-family: "ITC Avant Garde Gothic Std";
 	font-weight: 400;
 	font-size: 15px;
@@ -587,7 +766,7 @@ body
 
 
 #Post_Content_Down
-{	
+{
 	display: none;
 	width: 100%;
 	height: 0;
@@ -648,7 +827,7 @@ body
 	margin-right: 8%;
 	margin-top: 15px;
 	margin-bottom: 10px;
-	color: #940051;	
+	color: #940051;
 }
 
 .Post_Content_Down_Text_Info
@@ -669,7 +848,7 @@ body
 .Post_Content_Down_Info_Location
 {
 	display: flex;
-	flex-direction: column;	
+	flex-direction: column;
 	flex-wrap: wrap;
 	width: 100%;
 	height: auto;
@@ -700,7 +879,7 @@ body
 #Post_Content_Down_Info_FormerStudent_List_User
 {
 	display: flex;
-	flex-direction: column;	
+	flex-direction: column;
 	width: 20%;
 	height: auto;
 	margin-left: 5%
@@ -800,10 +979,10 @@ body
 	height: 20%;
 }
 
-#Post_Test:target a.Volet_Open 
+#Post_Test:target a.Volet_Open
 {
 	display: none;
-} 
+}
 
 #Post_Test:target a.Volet_Close
 {
@@ -891,7 +1070,7 @@ body
 
 #InternshipLeftSearch_SearchBar_Button:hover
 {
-	background: #ff6633; 
+	background: #ff6633;
 }
 
 
@@ -994,7 +1173,7 @@ body
 
 
 #InternshipLeftSearch_Map
-{	
+{
   position: static;
   margin-top: 1%;
   width: 20%;
@@ -1002,7 +1181,7 @@ body
 }
 
 #InternshipLeftSearch_Map_Img
-{	
+{
   position: static;
   padding-top: 6%;
   width: 100%;
@@ -1163,7 +1342,7 @@ body
 
 
 #PostEvent_Content
-{	
+{
 	position: static;
 	width: 100%;
 	height: 100%;

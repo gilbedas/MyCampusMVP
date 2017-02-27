@@ -165,7 +165,7 @@
 body
 {
   background: #f1e7ec;
-  overflow-x: scroll;
+  overflow: auto;
 }
 
 #MainHeader
@@ -345,6 +345,7 @@ body
 	font-size: 20px;
 	height: 20px;
 	color: #940051;
+	margin-bottom: 2px;
 }
 
 .StudentProfilInstitution_Line
@@ -405,8 +406,8 @@ body
 	margin-top: 25%;
 	font-family: "ITC Avant Garde Gothic Std";
 	font-weight: 600;
-	font-size: 20px;
-	height: 20px;
+	font-size: 18px;
+	height: 18px;
 	color: #fff;
 	text-align: center;
 }
@@ -415,14 +416,192 @@ body
 
 
 
+#StudentProfilPath
+{
+	position: fixed;
+ 	margin-left: 26%;
+  	width: 48%;
+  	height: auto;
+  	background-color: #fff;
+  	display: flex;
+  	flex-direction: column;
+}
+
+
+#StudentProfilPath_Path
+{
+	margin-left: 4%;
+	width: 92%;
+	height: 100%;
+	margin-bottom: 4%;
+}
+
+#StudentProfilPath_Path_School
+{
+	width: 99%;
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 18px;
+	height: 18px;
+	background-color: #f1e7ec;
+	color: #940051;
+	margin: 0;
+	padding-left: 1%;
+}
+
+#StudentProfilPath_Path_School_Content
+{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	display: flex;
+	flex-direction: raw;
+	flex-wrap: nowrap;
+}
+
+#StudentProfilPath_Path_School_Content_Cursus
+{
+	width: 60%;
+	height: auto;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+}
+
+#Vertical_Line
+{
+	width: 1px;
+	margin: 0;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	height: 90%;
+}
+
+#StudentProfilPath_Path_School_Content_Association
+{
+	width: 30%;
+	height: auto;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+}
+
+#StudentProfilPath_Path_School_Content_Association_Photo
+{
+	display: flex;
+	flex-direction: raw;
+	flex-wrap: nowrap;
+	margin-top: 5%;
+}
+
+.StudentProfilPath_Path_School_Content_Association_Photo_Resize
+{
+	position: relative;
+	width: 35%;
+	height: auto;
+	border-radius: 50%;
+}
+
+#StudentProfilPath_Path_School_Content_Association_Info
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 5%;
+	margin-top: 15px;
+}
+
+.StudentProfilPath_Path_School_Content_Association_Info_Name
+{
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 14px;
+	height: 14px;
+	color: #666666;
+	margin: 0;
+}
+
+.StudentProfilPath_Path_School_Content_Association_Info_Place
+{
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 14px;
+	height: 14px;
+	color: #666666;
+	font-style: oblique;
+	margin: 0;
+}
 
 
 
 
 
 
+#StudentProfilRight
+{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	position: fixed;
+  	margin-left: 76%;
+  	margin-top: calc(5% + 200px);
+  	width: 20%;
+  	background-color: #fff;
+}
+
+#StudentProfilRight_Profil
+{
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: raw;
+	flex-wrap: nowrap;
+	margin-bottom: 5px;
+}
+
+.StudentProfilRight_Profil_Photo
+{
+	position: relative;
+	width: 15%;
+	height: auto;
+	border-radius: 50%;
+	margin: 0;
+	margin-left: 5%;
+	margin-bottom: 3px;
+}
+
+#StudentProfilRight_Profil_Info
+{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.StudentProfilRight_Profil_Name
+{
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 14px;
+	height: 14px;
+	color: #000;
+	margin: 0;
+	margin-top: 10px;
+	margin-left: 10%;
+}
 
 
+.StudentProfilRight_Profil_Cursus
+{
+	font-family: "ITC Avant Garde Gothic Std";
+	font-weight: 400;
+	font-size: 12px;
+	height: 12px;
+	color: #666666;
+	font-style: oblique;
+	margin: 0;
+	margin-left: 10%;
+}
 
 
 

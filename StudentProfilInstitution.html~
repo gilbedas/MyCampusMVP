@@ -22,7 +22,7 @@
 				<p class="StudentProfilInstitution_Text">High school</p>
 			</div>
 			<div id="BackToSearchButton">
-			 <p class="BackToSearchButton_Text"><-                      Back to student search</p>
+			 <p class="BackToSearchButton_Text"><- Back to student search</p>
 			</div>
 		</div>
   </body>

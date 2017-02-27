@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Campus</title>
+	<link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+  		<div id="StudentProfilPath">
+  			<p class="StudentProfilInstitution_Header">Path</p>
+			<hr class="StudentProfilInstitution_Line">
+			<div id="StudentProfilPath_Path">
+				<div id="StudentProfilPath_Path_School">HEC</div>
+				<div id="StudentProfilPath_Path_School_Content">
+					<div id="StudentProfilPath_Path_School_Content_Cursus">
+						<p class="StudentProfilInstitution_Title">First year</p>
+						<p class="StudentProfilInstitution_Text">-High school</p>
+						<p class="StudentProfilInstitution_Text">-High school</p>
+						<p class="StudentProfilInstitution_Title">Second year</p>
+						<p class="StudentProfilInstitution_Text">-High school</p>
+						<p class="StudentProfilInstitution_Title">Third year</p>
+						<p class="StudentProfilInstitution_Text">-High school</p>
+					</div>
+					<hr class="Vertical_Line">
+					<div id="StudentProfilPath_Path_School_Content_Association">
+						<p class="StudentProfilInstitution_Title">Association</p>
+						<div id="StudentProfilPath_Path_School_Content_Association_Photo">
+							<img src="/home/gildas/Documents/prog/web/MyCampusMVP/chat.jpg" alt="Association Photo" class="StudentProfilPath_Path_School_Content_Association_Photo_Resize">
+							<div id="StudentProfilPath_Path_School_Content_Association_Info">
+								<p class="StudentProfilPath_Path_School_Content_Association_Info_Name">HEC ONU</p>
+								<p class="StudentProfilPath_Path_School_Content_Association_Info_Place"></p>
+							</div>						
+						</div>
+					</div>			
+				</div>	
+			</div>
+  		</div>
+  </body>
+</html>
