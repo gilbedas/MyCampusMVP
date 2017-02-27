@@ -1,0 +1,80 @@
+.Company_Text{
+  margin: 0;
+  margin-right: 5%;
+  font-size: 12px;
+  color: $black;
+}
+
+.Company_Text_Name{
+  font-size: 38px;
+  color: $site-color-header;
+  margin-top: 15px;
+  line-height: normal;
+}
+
+.Company_Text_Type{
+  font-size: 25px;
+  color: $black;
+}
+
+.Company_Text_Description{
+  font-size: 14px;
+  color: $black;
+  border-top: 1px solid grey;
+  padding-top: 5px;
+}
+
+.Company_TotalRate{
+  background-color: $white;
+  border: 1px solid grey;
+  color: $site-color-header;
+  font-size: 16px;
+}
+
+.Company_Rate{
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  color: $black;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.Company_Interns{
+  background-color: $white;
+  border: 1px solid grey;
+}
+
+.Company_Interns_Current{
+  color: $site-color-header;
+  font-size: 14px;
+}
+
+.Company_Offers_Name{
+  margin: 0;
+  margin-top: 5px;
+  font-size: 16px;
+  color: $site-color-header;
+}
+
+.Company_Offers_CompanyName{
+  margin: 0;
+  font-size: 25px;
+  line-height: normal;
+  font-weight: 600;
+  color: $site-color-header;
+}
+
+.Company_Offers_Text{
+  margin: 0;
+  font-size: 18px;
+  line-height: normal;
+  color: $black;
+}
+
+
+.Company_Feedback_Text{
+  margin: 0;
+  font-size: 18px;
+  line-height: normal;
+  color: $black;
+}
