@@ -104,6 +104,24 @@ $grid-column-gutter: (
   border: 1px solid grey;
 }
 
+#ImgBox{
+  background: $site-color-Img;
+  width: 90%;
+  height: 150px;
+  margin: 3%;
+  display: flex;
+  align-item: center;
+  padding: 0;
+}
+
+#ImgBox_Resize{
+  width: auto;
+  height: auto;
+  max-height: 150px;
+  margin:auto;
+  display: block;
+}
+
 @include foundation-global-styles;
 @include foundation-flex-grid;
 @include foundation-typography;
