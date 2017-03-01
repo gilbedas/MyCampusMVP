@@ -1,37 +1,37 @@
-.Company_Text{
+.Majeur_Text{
   margin: 0;
   margin-right: 5%;
   font-size: 12px;
   color: $black;
 }
 
-.Company_Text_Name{
+.Majeur_Text_Name{
   font-size: 38px;
   color: $site-color-header;
   margin-top: 15px;
   line-height: normal;
 }
 
-.Company_Text_Type{
+.Majeur_Text_Type{
   font-size: 25px;
   color: $black;
+  border-bottom: 1px solid grey;
 }
 
-.Company_Text_Description{
-  font-size: 14px;
-  color: $black;
-  border-top: 1px solid grey;
+.Majeur_Text_Description{
+  font-size: 20px;
+  color: grey;
   padding-top: 5px;
 }
 
-.Company_TotalRate{
+.Majeur_TotalRate{
   background-color: $white;
   border: 1px solid grey;
   color: $site-color-header;
   font-size: 16px;
 }
 
-.Company_Rate{
+.Majeur_Rate{
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
   color: $black;
@@ -39,24 +39,24 @@
   margin-top: 10px;
 }
 
-.Company_Interns{
+.Majeur_Interns{
   background-color: $white;
   border: 1px solid grey;
 }
 
-.Company_Interns_Current{
+.Majeur_Interns_Current{
   color: $site-color-header;
   font-size: 14px;
 }
 
-.Company_Offers_Name{
+.Majeur_Offers_Name{
   margin: 0;
   margin-top: 5px;
   font-size: 16px;
   color: $site-color-header;
 }
 
-.Company_Offers_CompanyName{
+.Majeur_Offers_MajeurName{
   margin: 0;
   font-size: 25px;
   line-height: normal;
@@ -64,7 +64,7 @@
   color: $site-color-header;
 }
 
-.Company_Offers_Text{
+.Majeur_Offers_Text{
   margin: 0;
   font-size: 18px;
   line-height: normal;
@@ -72,7 +72,7 @@
 }
 
 
-.Company_Feedback_Text{
+.Majeur_Feedback_Text{
   margin: 0;
   font-size: 20px;
   line-height: normal;
@@ -81,7 +81,7 @@
   font-weight: bold;
 }
 
-.Company_Feedback_Nb{
+.Majeur_Feedback_Nb{
   margin: 0;
   font-size: 15px;
   line-height: normal;
@@ -89,7 +89,7 @@
   margin-left: 5%;
 }
 
-.Company_Feedback_Rate{
+.Majeur_Feedback_Rate{
   margin: 0;
   font-size: 1.5rem;
   line-height: normal;
@@ -98,7 +98,7 @@
   margin-top: 7px;
 }
 
-.Company_Feedback_Name{
+.Majeur_Feedback_Name{
   margin: 0;
   font-size: 14px;
   line-height: normal;
@@ -106,7 +106,7 @@
   margin-top: 10px;
 }
 
-.Company_Feedback_AllFeedback{
+.Majeur_Feedback_AllFeedback{
   margin: 0;
   font-size: 14px;
   line-height: normal;
@@ -114,7 +114,7 @@
   margin-top: 10px;
 }
 
-.Company_Feedback_Link{
+.Majeur_Feedback_Link{
   margin: 0;
   font-size: 14px;
   line-height: normal;
@@ -122,4 +122,45 @@
   margin-top: 10px;
   text-align: right;
   text-decoration: underline;
+}
+
+.Majeur_Back{
+  font-size: 18px;
+  color: $site-color-header;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  margin-right: 2px;
+}
+
+.Majeur_Description
+{
+  border: 0px;
+  margin: 0;
+  padding: 0;
+  height: 119px;
+  overflow: hidden;
+  padding-top: 10px;
+  line-height: 1.6;
+  color: $black
+}
+
+.Majeur_Description_Plus{
+  color: $site-color-header;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  margin-left: 80%;
+}
+
+
+#Description:target
+{
+	height: auto;
+  padding-bottom: 10px;
+}
+
+.Majeur_Description_Plus:visited
+{
+  visibility: hidden;
 }
