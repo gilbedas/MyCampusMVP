@@ -1,0 +1,72 @@
+.Profil_Badge_Activate{
+  margin: 0;
+  font-size: 16px;
+  color: $black;
+  width: auto;
+  margin-top: 3px;
+}
+
+.Profil_Badge_Text{
+  font-size: 9px;
+  margin: 0;
+  line-height: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Profil_Filter_Underfilters{
+  font-size: 16px;
+  color: $black;
+}
+
+#Profil_Search_Bar{
+  height: 80%;
+  width: 100%;
+  border-radius: 7px 0 0 7px;
+  line-height: 30px;
+  font-size: 14px;
+  overflow: visible;
+  padding: 0;
+  padding-left: 7px;
+}
+
+#Profil_Search_Img{
+  width: 50%;
+  height:auto;
+  margin: 5%;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.Profil_Search_Name{
+  color: $site-color-header;
+  font-size: 22px;
+  line-height: normal;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.Profil_Search_Cursus{
+  color: $black;
+  font-size: 18px;
+  line-height: normal;
+  margin: 0;
+}
+
+.Profil_Search_Place{
+  color: $black;
+  font-size: 14px;
+  line-height: normal;
+  margin: 0;
+  font-style: oblique;
+}
+
+.Profil_Search_Promo{
+  color: $black;
+  font-size: 16px;
+  line-height: normal;
+  margin: 0;
+  margin-top: 5px;
+}
