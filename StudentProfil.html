@@ -7,10 +7,342 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    
+    <div class="title-bar" data-responsive-toggle="menu-header" data-hide-for="medium">
+      <button class="menu-icon" type="button" data-toggle></button>
+      <div class="title-bar-title">UnisphR</div>
+    </div>
 
-      <script src="bower_components/jquery/dist/jquery.js"></script>
-      <script src="bower_components/what-input/dist/what-input.js"></script>
-      <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
-      <script src="js/app.js"></script>
+    <div class="top-bar Header" id="menu-header">
+      <div class="top-bar-right">
+        <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
+          <li><a href="" >Mon site</a></li>
+          <li>
+            <a href="" >Lien 1</a>
+            <ul class="menu vertical">
+              <li><a href="#">One</a></li>
+              <li><a href="#">Two</a></li>
+              <li><a href="#">Three</a></li>
+            </ul>
+          </li>
+          <li><a href="" >Lien 2</a></li>
+          <li><a href="" >lien 3</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row Content" style="padding-top: 10px;">
+      <div class="small-12 Top_Nav column">
+        <div class="row">
+          <div class="small-3">
+            <div class="media-object-section" id="ImgBox">
+              <img src="/home/gildas/Documents/prog/web/MyCampusMVP/montagne.jpg" id="ImgBox_Resize" alt=""/>
+            </div>
+          </div>
+          <div class="small-9 medium-7 large-5">
+            <p class="Company_Text Company_Text_Name">Name Name Name</p>
+            <p class="Company_Text Company_Text_Type">Doing doing</p>
+            <p class="Company_Text Company_Text_Description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="show-for-large large-2">
+          </div>
+          <div class="show-for-medium medium-2">
+            <p class="Profil_Promo">Promo promo</p>
+          </div>
+        </div>
+      </div>
+      <div class="show-for-medium medium-3 large-2 column">
+        <div class="row Box">
+          <div class="Profil_Title_Complet" style="width: 100%;">
+            <p class="Profil_Institution_Title TitleAndLineMargin" style="margin: 0;">Institution</p>
+            <a href="#" class="Profil_Title_Add TitleAndLineMargin" style="margin: 0;">+</a>
+          </div>
+          <p class="Profil_Institution_Type small-12">Education</p>
+          <div class="row Profil_Institution_Text" style="width: 100%; margin: 0;">
+            <a href="#" class="medium-12 Profil_Institution_Link">Place place</a>
+            <a href="#" class="medium-12 Profil_Institution_Link">Place place</a>
+            <p class="medium-12 Profil_Institution_Clicked">Place place</p>
+            <a href="#" class="medium-12 Profil_Institution_Link">Place place</a>
+          </div>
+          <p class="Profil_Institution_Type small-12">Companies</p>
+          <div class="row Profil_Institution_Text" style="width: 100%; margin: 0;">
+            <a href="#" class="medium-12 Profil_Institution_Link">Place place</a>
+            <a href="#" class="medium-12 Profil_Institution_Link">Place place</a>
+            <a href="#" class="medium-12 Profil_Institution_Link">Place place</a>
+          </div>
+          <p class="Profil_Institution_Type small-12">Organisation</p>
+          <div class="row Profil_Institution_Text" style="width: 100%; margin: 0;">
+            <a href="#" class="medium-12 Profil_Institution_Link">Place place</a>
+          </div>
+        </div>
+        <a href="#">
+          <div class="row Box" style="margin-top: 10px;">
+            <p class="Majeur_Back small-2"></p>
+            <p class="Majeur_Back small-">Back to Majeures</p>
+          </div>
+        </a>
+      </div>
+      <div class="small-12 medium-9 large-8 column">
+        <div class="Profil_Title_Complet" style="margin: 0;">
+          <p class="Profil_Title TitleAndLineMargin" style="margin: 0;">Cursus cursus</p>
+          <a href="#" class="Profil_Title_Add TitleAndLineMargin" style="margin: 0;">+</a>
+        </div>
+        <p class="InternshipSearch_Title TitleAndLineMargin small-12" style="margin-top: 20px;">First year</p>
+        <ul class="accordion" data-accordion data-allow-all-closed="true" style="margin-top: 10px;">
+          <li class="accordion-item" data-accordion-item style="margin: 0; padding: 0;">
+            <a href="#" class="accordion" style="padding: 0; margin: 0; width: 100%;">
+              <div class="row Box" style="width: 100%; margin: 0; display: auto;">
+                <div class="small-1">
+                  <img src="/home/gildas/Documents/prog/web/MyCampusMVP/drapeau.jpg" alt="pic entreprise" style="width: 80%; height:auto; margin: 5%;"/>
+                </div>
+                <div class="small-6">
+                  <p class="Company_Feedback_Text">Ecole - place place place</p>
+                </div>
+                <div class="small-4">
+                  <p class="International_Feedback_Type">Type</p>
+                </div>
+                <div class="small-1">
+                  <p class="Company_Feedback_Rate">3.3</p>
+                </div>
+              </div>
+            </a>
+            <div class="accordion-content" data-tab-content style="border: 1px solid grey; border-top: 0px;">
+              <div class="row" style="width: 100%; margin: 0;">
+                <div class="small-4">
+                  <div class="row" style="width: 100%; margin: 0;">
+                    <div class="small-2">
+                      <img src="/home/gildas/Documents/prog/web/MyCampusMVP/chat.jpg" alt="pic entreprise" style="width: 90%; height:auto; margin: 5%; border-radius: 50%;"/>
+                    </div>
+                    <div class="small-8">
+                      <p class="Company_Feedback_Name">Name name name</p>
+                    </div>
+                  </div>
+                  <div class="row Company_Rate" style="width: 90%; margin: 0;">
+                    <div class="medium-8 " style="margin: 5px;">
+                      Quality of class
+                    </div>
+                    <div class="medium-1 " style="margin: 5px; margin-left: 15px;">
+                      A
+                    </div>
+                    <div class="medium-8 " style="margin: 5px;">
+                      Quality of class
+                    </div>
+                    <div class="medium-1 " style="margin: 5px; margin-left: 15px;">
+                      B
+                    </div>
+                    <div class="medium-8 " style="margin: 5px;">
+                      Quality of class
+                    </div>
+                    <div class="medium-1 " style="margin: 5px; margin-left: 15px;">
+                      C
+                    </div>
+                    <div class="medium-8 " style="margin: 5px;">
+                      Quality of class
+                    </div>
+                    <div class="medium-1 " style="margin: 5px; margin-left: 15px;">
+                      D
+                    </div>
+                  </div>
+                </div>
+                <div class="small-8" style="margin-top: 10px;">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+                </div>
+              </div>
+                <p class="Company_Feedback_Link"><a href="#" class="Company_Feedback_Link">All feedback ></a></p>
+            </div>
+          </li>
+        </ul>
+        <ul class="accordion" data-accordion data-allow-all-closed="true" style="margin-top: 10px;">
+          <li class="accordion-item" data-accordion-item style="margin: 0; padding: 0;">
+            <a href="#" class="accordion" style="padding: 0; margin: 0; width: 100%;">
+              <div class="row Box" style="width: 100%; margin: 0; display: auto;">
+                <div class="small-11">
+                  <p class="Company_Feedback_Text">Type at place place place</p>
+                </div>
+                <div class="small-1">
+                  <p class="Company_Feedback_Rate">3.3</p>
+                </div>
+              </div>
+            </a>
+            <div class="accordion-content" data-tab-content style="border: 1px solid grey; border-top: 0px;">
+              <div class="row" style="width: 100%; margin: 0;">
+                <div class="small-4">
+                  <div class="row" style="width: 100%; margin: 0;">
+                    <div class="small-2">
+                      <img src="/home/gildas/Documents/prog/web/MyCampusMVP/chat.jpg" alt="pic entreprise" style="width: 90%; height:auto; margin: 5%; border-radius: 50%;"/>
+                    </div>
+                    <div class="small-8">
+                      <p class="Company_Feedback_Name">Name name name</p>
+                    </div>
+                  </div>
+                  <div class="row Company_Rate" style="width: 90%; margin: 0;">
+                    <div class="medium-8 " style="margin: 5px;">
+                      Quality of class
+                    </div>
+                    <div class="medium-1 " style="margin: 5px; margin-left: 15px;">
+                      A
+                    </div>
+                    <div class="medium-8 " style="margin: 5px;">
+                      Quality of class
+                    </div>
+                    <div class="medium-1 " style="margin: 5px; margin-left: 15px;">
+                      B
+                    </div>
+                    <div class="medium-8 " style="margin: 5px;">
+                      Quality of class
+                    </div>
+                    <div class="medium-1 " style="margin: 5px; margin-left: 15px;">
+                      C
+                    </div>
+                    <div class="medium-8 " style="margin: 5px;">
+                      Quality of class
+                    </div>
+                    <div class="medium-1 " style="margin: 5px; margin-left: 15px;">
+                      D
+                    </div>
+                  </div>
+                </div>
+                <div class="small-8" style="margin-top: 10px;">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+                </div>
+              </div>
+                <p class="Company_Feedback_Link"><a href="#" class="Company_Feedback_Link">All feedback ></a></p>
+            </div>
+          </li>
+        </ul>
+
+
+        <p class="InternshipSearch_Title TitleAndLineMargin small-12" style="margin-top: 20px;">Second year</p>
+        <ul class="accordion" data-accordion data-allow-all-closed="true" style="margin-top: 10px;">
+          <li class="accordion-item" data-accordion-item style="margin: 0; padding: 0;">
+            <a href="#" class="accordion" style="padding: 0; margin: 0; width: 100%;">
+              <div class="row Box" style="width: 100%; margin: 0; display: auto;">
+                <div class="small-1">
+                  <img src="/home/gildas/Documents/prog/web/MyCampusMVP/drapeau.jpg" alt="pic entreprise" style="width: 80%; height:auto; margin: 5%;"/>
+                </div>
+                <div class="small-6">
+                  <p class="Company_Feedback_Text">Ecole - place place place</p>
+                </div>
+                <div class="small-4">
+                  <p class="International_Feedback_Type">Type</p>
+                </div>
+                <div class="small-1">
+                  <p class="Company_Feedback_Rate">3.3</p>
+                </div>
+              </div>
+            </a>
+            <div class="accordion-content" data-tab-content style="border: 1px solid grey; border-top: 0px;">
+              <div class="row" style="width: 100%; margin: 0;">
+                <div class="small-4">
+                  <div class="row" style="width: 100%; margin: 0;">
+                    <div class="small-2">
+                      <img src="/home/gildas/Documents/prog/web/MyCampusMVP/chat.jpg" alt="pic entreprise" style="width: 90%; height:auto; margin: 5%; border-radius: 50%;"/>
+                    </div>
+                    <div class="small-8">
+                      <p class="Company_Feedback_Name">Name name name</p>
+                    </div>
+                  </div>
+                  <div class="row Company_Rate" style="width: 90%; margin: 0;">
+                    <div class="medium-8 " style="margin: 5px;">
+                      Quality of class
+                    </div>
+                    <div class="medium-1 " style="margin: 5px; margin-left: 15px;">
+                      A
+                    </div>
+                    <div class="medium-8 " style="margin: 5px;">
+                      Quality of class
+                    </div>
+                    <div class="medium-1 " style="margin: 5px; margin-left: 15px;">
+                      B
+                    </div>
+                    <div class="medium-8 " style="margin: 5px;">
+                      Quality of class
+                    </div>
+                    <div class="medium-1 " style="margin: 5px; margin-left: 15px;">
+                      C
+                    </div>
+                    <div class="medium-8 " style="margin: 5px;">
+                      Quality of class
+                    </div>
+                    <div class="medium-1 " style="margin: 5px; margin-left: 15px;">
+                      D
+                    </div>
+                  </div>
+                </div>
+                <div class="small-8" style="margin-top: 10px;">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+                </div>
+              </div>
+                <p class="Company_Feedback_Link"><a href="#" class="Company_Feedback_Link">All feedback ></a></p>
+            </div>
+          </li>
+        </ul>
+        <ul class="accordion" data-accordion data-allow-all-closed="true" style="margin-top: 10px;">
+          <li class="accordion-item" data-accordion-item style="margin: 0; padding: 0;">
+            <a href="#" class="accordion" style="padding: 0; margin: 0; width: 100%;">
+              <div class="row Box" style="width: 100%; margin: 0; display: auto;">
+                <div class="small-11">
+                  <p class="Company_Feedback_Text">Type at place place place</p>
+                </div>
+                <div class="small-1">
+                  <p class="Company_Feedback_Rate">3.3</p>
+                </div>
+              </div>
+            </a>
+            <div class="accordion-content" data-tab-content style="border: 1px solid grey; border-top: 0px;">
+              <div class="row" style="width: 100%; margin: 0;">
+                <div class="small-4">
+                  <div class="row" style="width: 100%; margin: 0;">
+                    <div class="small-2">
+                      <img src="/home/gildas/Documents/prog/web/MyCampusMVP/chat.jpg" alt="pic entreprise" style="width: 90%; height:auto; margin: 5%; border-radius: 50%;"/>
+                    </div>
+                    <div class="small-8">
+                      <p class="Company_Feedback_Name">Name name name</p>
+                    </div>
+                  </div>
+                  <div class="row Company_Rate" style="width: 90%; margin: 0;">
+                    <div class="medium-8 " style="margin: 5px;">
+                      Quality of class
+                    </div>
+                    <div class="medium-1 " style="margin: 5px; margin-left: 15px;">
+                      A
+                    </div>
+                    <div class="medium-8 " style="margin: 5px;">
+                      Quality of class
+                    </div>
+                    <div class="medium-1 " style="margin: 5px; margin-left: 15px;">
+                      B
+                    </div>
+                    <div class="medium-8 " style="margin: 5px;">
+                      Quality of class
+                    </div>
+                    <div class="medium-1 " style="margin: 5px; margin-left: 15px;">
+                      C
+                    </div>
+                    <div class="medium-8 " style="margin: 5px;">
+                      Quality of class
+                    </div>
+                    <div class="medium-1 " style="margin: 5px; margin-left: 15px;">
+                      D
+                    </div>
+                  </div>
+                </div>
+                <div class="small-8" style="margin-top: 10px;">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+                </div>
+              </div>
+                <p class="Company_Feedback_Link"><a href="#" class="Company_Feedback_Link">All feedback ></a></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/what-input/dist/what-input.js"></script>
+    <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
+    <script src="js/app.js"></script>
   </body>
