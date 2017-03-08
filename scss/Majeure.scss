@@ -15,25 +15,25 @@
 .Majeur_Text_Type{
   font-size: 20px;
   color: $black;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid $site-color-gray-box;
 }
 
 .Majeur_Text_Description{
   font-size: 16px;
-  color: grey;
+  color: $site-color-gray-text;
   padding-top: 5px;
 }
 
 .Majeur_TotalRate{
   background-color: $white;
-  border: 1px solid grey;
+  border: 1px solid $site-color-gray-box;
   color: $site-color-header;
   font-size: 16px;
 }
 
 .Majeur_Rate{
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
+  border-top: 1px solid $site-color-gray-box;
+  border-bottom: 1px solid $site-color-gray-box;
   color: $black;
   font-size: 16px;
   margin-top: 10px;
@@ -41,7 +41,7 @@
 
 .Majeur_Interns{
   background-color: $white;
-  border: 1px solid grey;
+  border: 1px solid $site-color-gray-box;
 }
 
 .Majeur_Interns_Current{
@@ -169,7 +169,7 @@
 .Majeur_Badge_Desactivate{
   margin: 0;
   font-size: 20px;
-  color: grey;
+  color: $site-color-gray-text;
   width: auto;
 }
 

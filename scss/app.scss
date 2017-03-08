@@ -98,7 +98,7 @@ $grid-column-gutter: (
   background-color: $white;
   border-width: 1px;
   border-style: solid;
-  border-color: grey;
+  border-color: $site-color-gray-box;
 }
 
 .Top_Nav_Center{
@@ -107,7 +107,7 @@ $grid-column-gutter: (
 
 .Box{
   background-color: $white;
-  border: 1px solid grey;
+  border: 1px solid $site-color-gray-box;
 }
 
 #ImgBox{
@@ -118,12 +118,13 @@ $grid-column-gutter: (
   display: flex;
   align-item: center;
   padding: 0;
+  border: 1px solid $site-color-gray-box;
 }
 
 #ImgBox_Resize{
   width: auto;
   height: auto;
-  max-height: 150px;
+  max-height: 148px;
   margin:auto;
   display: block;
 }

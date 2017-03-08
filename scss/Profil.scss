@@ -136,14 +136,14 @@
 
 .Profil_Institution_Link:hover{
   color: black;
-  background-color: $site-color-back;
+  background-color: $site-color-highlight;
   text-decoration: underline;
 }
 
 .Profil_Institution_Clicked{
-  color: grey;
+  color: $site-color-gray-text;
   font-size: 16px;
   margin: 0;
-  background-color: $site-color-back;
+  background-color: $site-color-highlight;
   padding-left: 25px;
 }

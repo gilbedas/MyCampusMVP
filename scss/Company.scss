@@ -20,20 +20,20 @@
 .Company_Text_Description{
   font-size: 14px;
   color: $black;
-  border-top: 1px solid grey;
+  border-top: 1px solid $site-color-gray-box;
   padding-top: 5px;
 }
 
 .Company_TotalRate{
   background-color: $white;
-  border: 1px solid grey;
+  border: 1px solid $site-color-gray-box;
   color: $site-color-header;
   font-size: 16px;
 }
 
 .Company_Rate{
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
+  border-top: 1px solid $site-color-gray-box;
+  border-bottom: 1px solid $site-color-gray-box;
   color: $black;
   font-size: 16px;
   margin-top: 10px;
@@ -41,7 +41,7 @@
 
 .Company_Interns{
   background-color: $white;
-  border: 1px solid grey;
+  border: 1px solid $site-color-gray-box;
 }
 
 .Company_Interns_Current{
@@ -86,7 +86,7 @@
   margin: 0;
   font-size: 15px;
   line-height: normal;
-  color: grey;
+  color: $site-color-gray-text;
   margin-left: 5%;
 }
 
