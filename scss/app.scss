@@ -129,6 +129,19 @@ $grid-column-gutter: (
   display: block;
 }
 
+.Profil_Round{
+  border-radius: 50%;
+  overflow: hidden;
+  width: 38px;
+  height: 38px;
+  margin: 5%;
+}
+
+.Profil_Round_Img{
+  width: 100%;
+  height: auto;
+}
+
 @include foundation-global-styles;
 @include foundation-flex-grid;
 @include foundation-typography;
