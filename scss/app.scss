@@ -10,7 +10,6 @@
 @import 'Profil';
 
 .Header{
-  box-shadow: 0px 2px 5px 0px #000000;
 }
 
 
@@ -95,14 +94,27 @@ $grid-column-gutter: (
 
 .Top_Nav{
   margin-bottom: 20px;
-  background-color: $white;
-  border-width: 1px;
-  border-style: solid;
-  border-color: $site-color-gray-box;
+  background-color: $site-color-header;
 }
 
 .Top_Nav_Center{
-  margin-top: 20px;
+  margin-top: 5px;
+}
+
+.Top_Text{
+  font-size: 33px;
+  color: $white;
+  margin: 0;
+  margin-top: 15px;
+  line-height: normal;
+}
+
+.Top_Text_Under{
+  font-size: 25px;
+  color: $white;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 15px;
 }
 
 .Box{
@@ -110,11 +122,17 @@ $grid-column-gutter: (
   border: 1px solid $site-color-gray-box;
 }
 
+.Box_BorderLess{
+  background-color: $site-color-back;
+  border: 0px;
+}
+
 #ImgBox{
+  position: fixed;
   background: $site-color-Img;
-  width: 90%;
+  width: 200px;
   height: 150px;
-  margin: 3%;
+  margin: 1%;
   display: flex;
   align-item: center;
   padding: 0;
@@ -127,6 +145,22 @@ $grid-column-gutter: (
   max-height: 148px;
   margin:auto;
   display: block;
+}
+
+#TopImg{
+  position: fixed;
+  width: 200px;
+  height: 150px;
+  margin: 1%;
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+}
+
+#TopImg_Resize{
+  position: relative;
+  left: 100%;
+  margin-left: -200%;
 }
 
 .Profil_Round{
@@ -149,6 +183,18 @@ $grid-column-gutter: (
 
 .Link:hover{
   text-decoration: underline;
+}
+
+.Left_Nav{
+  margin-top: 50px;
+}
+
+.Center_Nav{
+  margin-top: 50px;
+}
+
+.Right_Nav{
+  margin-top: 50px;
 }
 
 @include foundation-global-styles;

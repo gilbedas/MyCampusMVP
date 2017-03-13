@@ -98,7 +98,6 @@ $tab-content-padding: 1rem !default;
     color: $color;
 
     &:hover {
-      background: $background-hover;
       color: scale-color($color, $lightness: -14%);
     }
 
