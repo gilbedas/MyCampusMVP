@@ -148,7 +148,7 @@ $grid-column-gutter: (
 }
 
 #TopImg{
-  position: fixed;
+  position: absolute;
   width: 200px;
   height: 150px;
   margin: 1%;
@@ -195,6 +195,15 @@ $grid-column-gutter: (
 
 .Right_Nav{
   margin-top: 50px;
+}
+
+.Description_Text{
+  font-size: 16px;
+  color: $black;
+  margin-left: 4%;
+  margin-right: 4%;
+  text-align: justify;
+  margin-top: 15px;
 }
 
 @include foundation-global-styles;

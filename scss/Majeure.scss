@@ -36,7 +36,6 @@
   border-bottom: 1px solid $site-color-gray-box;
   color: $black;
   font-size: 16px;
-  margin-top: 10px;
 }
 
 .Majeur_Interns{
@@ -195,4 +194,22 @@
   margin: 0;
   line-height: 20px;
   font-weight: bold;
+}
+
+.Majeur_OverallRate{
+  margin: 5px;
+  font-size: 1.5 vw;
+  font-weight: bold;
+  color: $black;
+}
+
+.Majeur_Rate_Text{
+  margin: 5px;
+  color: $site-color-gray-text;
+}
+
+.Majeur_Rate_Nb{
+  margin: 5px;
+  margin-left: 15px;
+  color: $site-color-gray-text;
 }
