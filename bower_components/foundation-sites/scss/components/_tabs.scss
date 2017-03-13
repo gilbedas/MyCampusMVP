@@ -106,6 +106,7 @@ $tab-content-padding: 1rem !default;
     &[aria-selected='true'] {
       background: $background-active;
       color: $color-active;
+      border-bottom: 2px solid $site-color-header;
     }
   }
 }

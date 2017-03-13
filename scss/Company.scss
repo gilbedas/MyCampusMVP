@@ -79,6 +79,8 @@
   color: $black;
   margin-left: 2%;
   margin-top: 5px;
+  margin-bottom: 5px;
+  width: auto;
   font-weight: bold;
 }
 
@@ -124,4 +126,41 @@
   margin-top: 10px;
   text-align: right;
   text-decoration: underline;
+}
+
+#Company_Search_Tabs{
+  padding: 0px;
+  color: $site-color-header;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.Company_Search_Name{
+  text-align: center;
+  font-size: 20px;
+  line-height: normal;
+  margin: 0;
+  color: $black;
+}
+
+.Company_Search_Name:hover{
+  text-decoration: underline;
+}
+
+.Company_Search_Type{
+  text-align: center;
+  font-size: 12px;
+  line-height: normal;
+  margin: 0;
+  color: $site-color-gray-text;
+}
+
+.Company_Search_Type:hover{
+  text-decoration: underline;
+}
+
+.Company_Search_Box{
+  margin-top: 15px;
 }
