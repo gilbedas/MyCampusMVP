@@ -96,6 +96,7 @@ $tab-content-padding: 1rem !default;
     font-size: $font-size;
     line-height: 1;
     color: $color;
+    border-bottom: 1px solid $site-color-gray-box;
 
     &:hover {
       color: scale-color($color, $lightness: -14%);

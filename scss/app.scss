@@ -128,23 +128,24 @@ $grid-column-gutter: (
 }
 
 #ImgBox{
-  position: fixed;
-  background: $site-color-Img;
+  background: $white;
   width: 200px;
   height: 150px;
   margin: 1%;
-  display: flex;
-  align-item: center;
+  display: block;
   padding: 0;
-  border: 1px solid $site-color-gray-box;
+  overflow: hidden;
 }
 
 #ImgBox_Resize{
-  width: auto;
-  height: auto;
-  max-height: 148px;
-  margin:auto;
-  display: block;
+  max-width: none;
+  height: 148px;
+}
+
+.ImgBox_Border{
+  padding: 5px;
+  background-color: $white;
+  border: 1px solid $site-color-gray-box;
 }
 
 #TopImg{
@@ -154,7 +155,9 @@ $grid-column-gutter: (
   margin: 1%;
   text-align: center;
   padding: 0;
-  overflow: hidden;
+  overflow:hidden;
+  padding: 5px;
+  background-color: $white;
 }
 
 #TopImg_Resize{
