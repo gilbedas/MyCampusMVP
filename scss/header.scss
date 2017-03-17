@@ -15,8 +15,13 @@
 .Header_Button{
   height: auto;
   width: 45px;
-  margin-right: 100%;
-  margin-left: 100%;
+  margin-right: 1%;
+  margin-left: 57%;
+}
+
+.Header_Button_Box{
+  margin-right: 50%;
+  margin-left: 50%;
 }
 
 .Header_Button_Text{
@@ -37,6 +42,7 @@
   height: 35px;
   margin: 0;
   padding: 0;
+  margin-left: 57%;
 }
 
 .Header_Profil_Arrow{
@@ -45,6 +51,7 @@
   width: auto;
   margin: 0;
   padding: 0;
+  margin-left: 57%;
 }
 
 .Header_Profil_Text{
