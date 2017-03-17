@@ -1,0 +1,22 @@
+.Home_Ecole{
+  margin: 0;
+}
+
+.Home_Ecole_Text{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 45px;
+  color: $site-color-header;
+  line-height: 40px;
+  margin: 0;
+  padding-bottom: 30px;
+  border-bottom: 2px solid $site-color-home-pink;
+}
+
+#Home_Box{
+  background-color: $site-color-home-pink;
+  width: 100%;
+  margin: 0;
+  margin-top: 15px;
+}
