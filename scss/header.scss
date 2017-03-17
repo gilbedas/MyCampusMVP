@@ -1,0 +1,98 @@
+#Header{
+  width: 100%;
+  padding: 5px;
+}
+
+.Header_Button_Img{
+  display: block;
+  height: 25px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.Header_Button{
+  height: auto;
+  width: 45px;
+  margin-right: 100%;
+  margin-left: 3%;
+}
+
+.Header_Button_Text{
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: $white;
+}
+
+.Header_Button_Text:hover{
+  color: $white;
+}
+
+.Header_Profil_Img{
+  border-radius: 50%;
+  overflow: hidden;
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.Header_Profil_Arrow{
+  display: flex;
+  height: 10px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.Header_Profil_Text{
+  color: $black;
+  font-size: 20px;
+  line-height: normal;
+  margin: 0;
+}
+
+.Header_Profil_Text:hover{
+  color: $black;
+}
+
+#Header_Search_Bar{
+  height: 30px;
+  width: 70%;
+  border-radius: 7px 0 0 7px;
+  line-height: 30px;
+  font-size: 14px;
+  overflow: visible;
+  padding: 0;
+  padding-left: 7px;
+  margin-top: 5px;
+}
+
+#Header_Search_Button{
+  position: relative;
+  height: 30px;
+  width: auto;
+  border-radius: 0 7px 7px 0;
+  background-color: $site-color-back;
+  margin-top: 5px;
+  padding-right: 7px;
+  padding-left: 7px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.Header_Search_Button_Box{
+  height: auto;
+  width: 30px;
+}
+
+#Header_Search_Box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0;
+  margin-left: 4%;
+  width: 25px;
+}

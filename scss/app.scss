@@ -8,11 +8,7 @@
 @import 'Majeure';
 @import 'International';
 @import 'Profil';
-
-.Header{
-}
-
-
+@import 'header';
 
 $grid-column-gutter: (
   small: 20px,
@@ -95,10 +91,12 @@ $grid-column-gutter: (
 .Top_Nav{
   margin-bottom: 20px;
   background-color: $site-color-header;
+  margin-top: 10px;
 }
 
 .Top_Nav_Center{
   margin-top: 5px;
+  height: 110px;
 }
 
 .Top_Text{
@@ -107,6 +105,7 @@ $grid-column-gutter: (
   margin: 0;
   margin-top: 15px;
   line-height: normal;
+  font-weight: bold;
 }
 
 .Top_Text_Under{
