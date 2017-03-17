@@ -6,29 +6,59 @@
     <title>UnisphR</title>
     <link rel="stylesheet" href="css/app.css">
   </head>
-  <body>
-  <div class="title-bar" data-responsive-toggle="menu-header" data-hide-for="medium">
-    <button class="menu-icon" type="button" data-toggle></button>
-    <div class="title-bar-title">UnisphR</div>
-  </div>
-
-	<div class="top-bar Header" id="menu-header">
-		<div class="top-bar-right">
-			<ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
-				<li><a href="" >Mon site</a></li>
-				<li>
-					<a href="" >Lien 1</a>
-					<ul class="menu vertical">
-          	<li><a href="#">One</a></li>
-          	<li><a href="#">Two</a></li>
-          	<li><a href="#">Three</a></li>
-        	</ul>
-				</li>
-				<li><a href="" >Lien 2</a></li>
-				<li><a href="" >lien 3</a></li>
-			</ul>
-		</div>
-	</div>
+  <body data-sticky-container>
+    <div class="top-bar sticky" data-sticky data-margin-top="0" data-anchor="foo" id="Header">
+      <div class="top-bar-right" style="width: 50%;">
+        <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
+          <li>
+            <div class="Header_Button" style="margin-left: 0;">
+              <a href="#" class="Header_Button_Text"><img src="Home picto header.png" class="Header_Button_Img"/> Company</a>
+            </div>
+          </li>
+          <li>
+            <div class="Header_Button">
+              <a href="#" class="Header_Button_Text"><img src="students-cap.png" class="Header_Button_Img"/> Company</a>
+            </div>
+          </li>
+          <li>
+            <div class="Header_Button">
+              <a href="#" class="Header_Button_Text"><img src="multiple-users-silhouette.png" class="Header_Button_Img"/> Company</a>
+            </div>
+          </li>
+          <li>
+            <div class="Header_Button">
+              <a href="#" class="Header_Button_Text"><img src="university.png" class="Header_Button_Img"/> Company</a>
+            </div>
+          </li>
+          <li>
+            <div class="Header_Button">
+              <a href="#" class="Header_Button_Text"><img src="briefcase.png" class="Header_Button_Img"/> Company</a>
+            </div>
+          </li>
+          <li>
+            <div class="Header_Profil_Img">
+              <img src="https://caterville.files.wordpress.com/2013/11/eeff2-longcat.gif" class="Profil_Round_Img"/>
+            </div>
+            <img src="Fleche down header.png" class="Header_Profil_Arrow"/>
+            <ul class="menu vertical">
+              <li><a href="#" class="Header_Profil_Text">One</a></li>
+              <li><a href="#" class="Header_Profil_Text">Two</a></li>
+              <li><a href="#" class="Header_Profil_Text">Three</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="top-bar-left" style="width: 50%;">
+        <div class="row show-for-medium" style="width: 100%; margin: 0;">
+          <div class="input-group medium-11" id="Header_Search_Box">
+            <input class="input-group-field" id="Header_Search_Bar" type="search">
+            <div class="Header_Search_Button_Box">
+              <input type="image" src="search.png" id="Header_Search_Button" value="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
   <div class="row" style="padding-top: 10px;">
