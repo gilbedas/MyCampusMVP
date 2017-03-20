@@ -10,7 +10,7 @@
   color: $site-color-header;
   line-height: 40px;
   margin: 0;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
   border-bottom: 2px solid $site-color-home-pink;
 }
 
@@ -19,4 +19,118 @@
   width: 100%;
   margin: 0;
   margin-top: 15px;
+}
+
+.Home_Box_Type_Left{
+  background-color: $white;
+  height: 12vw;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.Home_Box_Type_Right{
+  background-color: $white;
+  height: 12vw;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.Home_Left_Header{
+  background-color: $site-color-header;
+  height: 70px;
+  margin-bottom: 50px;
+}
+
+.Home_Profil_Img{
+  border-radius: 50%;
+  overflow: hidden;
+  width: 65px;
+  height: 65px;
+  margin: 0;
+  padding: 0;
+  margin-left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.Home_Left_Hello{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: $black;
+}
+
+.Home_Left_Modify{
+  font-size: 1.4vw;
+  font-weight: bold;
+  text-align: center;
+  color: $site-color-header;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 5px;
+  border-bottom: 1px solid $site-color-gray-box;
+  padding-bottom: 10px;
+}
+
+.Home_Left_Modify:hover{
+  color: $site-color-header;
+}
+
+.Home_Left_Doing{
+  font-size: 18px;
+  color: $black;
+  line-height: normal;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.Home_Left_Date{
+  font-size: 12px;
+  color: $site-color-gray-text;
+  line-height: normal;
+  margin: 0;
+}
+
+.Home_Left_ButtonPost{
+  background-color: $site-color-header;
+  margin: 0;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 20px;
+  color: $white;
+  text-align: center;
+}
+
+.Home_Left_Title{
+  font-size: 12px;
+  color: $site-color-gray-text;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-bottom: 1px solid $site-color-gray-text;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.Home_Left_Next{
+  font-size: 22px;
+  color: $black;
+  font-weight: bold;
+  text-align: center;
+  line-height: normal;
+}
+
+.Home_Left_Pinned{
+  font-size: 1.4vw;
+  font-weight: bold;
+  text-align: center;
+  color: $site-color-header;
+  line-height: normal;
+  margin: 0;
+}
+
+.Home_Left_Pinned:hover{
+  color: $site-color-header;
 }
