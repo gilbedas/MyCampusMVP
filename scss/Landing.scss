@@ -1,0 +1,101 @@
+.Landing_Text{
+  font-size: 29px;
+  text-align: center;
+  color: $white;
+  font-weight: bold;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+#Landing_Center{
+  width: 100%;
+  margin: 0;
+  margin-top: 50%;
+}
+
+.Landing_Button{
+  background-color: $site-color-header;
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+  color: $white;
+  text-align: center;
+}
+
+#Landing_Header{
+  width: 100%;
+  padding: 5px;
+  background-color: $site-color-top-bar-trensparent;
+  z-index: 3;
+}
+
+.Landing_Header_Title{
+  font-size: 35px;
+  color: $white;
+  line-height: normal;
+  vertical-align: middle;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.Landing_Header_Form{
+  display: flex;
+}
+
+#Landing_Header_TextBox{
+  height: 30px;
+  width: auto;
+  margin-bottom: 0;
+  padding: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.Landing_Header_TextBox_Text{
+  font-size: 15px;
+  color: $white;
+  margin: 0;
+}
+
+.Landing_Header_TextBox_Text:hover{
+  color: $white;
+}
+
+.Landing_Header_Button{
+  background-color: $site-color-header;
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  color: $white;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 30px;
+  margin-top: 27px;
+  margin-right: 15px;
+  border-radius: 2px;
+  padding-top: 2px;
+}
+
+.Landing_TextBox_Text{
+  font-size: 17px;
+  color: $site-color-gray-text;
+  margin: 0;
+}
+
+.Landing_Left{
+  height: 100%;
+}
+
+.Landing_Left_Button{
+  background-color: $site-color-header;
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+  color: $white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

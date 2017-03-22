@@ -134,3 +134,35 @@
 .Home_Left_Pinned:hover{
   color: $site-color-header;
 }
+
+.Home_Left_ImgBox{
+  width: 40%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.Home_Left_ImgBox_Left{
+  width: 27%;
+  height: 27%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.Home_Left_Img{
+  width: 100%;
+  height: auto;
+}
+
+#Home_Left_Link{
+  width: 100%;
+  height: 100%;
+}
+
+.Home_Left_Img_Text{
+  font-size: 20px;
+  text-align: center;
+  color: $black;
+}
