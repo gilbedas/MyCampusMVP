@@ -101,3 +101,79 @@
   margin-left: 4%;
   width: 25px;
 }
+
+.Header_Popup_Profil_Img{
+  border-radius: 50%;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.Header_Popup_Box_Link{
+  padding: 0;
+  background-color: $white;
+  border-bottom: 1px solid $site-color-gray-box;
+}
+
+.Header_Popup_Box_Log{
+  padding: 0;
+  background-color: $white;
+}
+
+.Header_Popup_Name{
+  color: $black;
+  margin: 0;
+  font-size: 15px;
+  margin-left: 10px;
+  text-align: left;
+  margin-top: 5px;
+  line-height: normal;
+  font-weight: bold;
+}
+
+.Header_Popup_Link{
+  color: $site-color-header;
+  margin: 0;
+  font-size: 14px;
+  margin-left: 10px;
+  text-align: left;
+  line-height: normal;
+}
+
+.Header_Popup_Modify{
+  color: $site-color-header;
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.Header_Popup_Modify:hover{
+  color: $site-color-header;
+}
+
+.Header_Popup_Content{
+  color: $black;
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.Header_Popup_Content:hover{
+  color: $black;
+}
+
+.Header_Popup_Log{
+  color: $black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
