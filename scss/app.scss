@@ -85,9 +85,25 @@ $grid-column-gutter: (
 .Pinned{
   background-color: $site-color-back;
   height: 50px;
+  width: auto;
   margin: 0;
   padding: 0;
   border-radius: 7px 0 0 7px;
+  margin-left: 2px;
+}
+
+.Pinned:active{
+  background-color: $site-color-header;
+}
+
+.Pinned_Img{
+  height: auto;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  vertical-align: middle;
 }
 
 .Top_Nav{
